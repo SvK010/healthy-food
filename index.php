@@ -1,4 +1,6 @@
 ﻿<?php  
+
+require_once("database_connection.php");
  
  $connect = mysqli_connect("localhost", "root", "", "healthy_food");  
  if(isset($_POST["add_to_cart"]))  
